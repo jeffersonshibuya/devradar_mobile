@@ -1,28 +1,27 @@
 {
   "expo": {
-    "name": "mobile",
+    "name": "DevRadar",
     "slug": "mobile",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#7d40e7"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
+      "bundleIdentifier": "com.jefferson.devradar",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.jefferson.devradar",
+      "versionCode": 1
     }
   }
 }
